@@ -1,4 +1,4 @@
-<h1>Windows 11 Deployment (Bootable USB & ISO)🖥️</h1>
+<h1>Windows 11 Deployment (ISO & Bootable USB)🖥️</h1>
 
 
 <h2>Description</h2>
