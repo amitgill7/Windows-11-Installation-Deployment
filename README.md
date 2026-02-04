@@ -11,10 +11,9 @@ This project focuses on operating system deployment, system preparation, BIOS/UE
 <h2>Technology Tools Used</h2>
 
 - Microsoft Windows 11 ISO
-- Windows Media Creation Tool
 - Rufus Boot Utility
-- Virtual Machine Software (VMware / VirtualBox / Hyper-V)
-- USB Flash Drive (8GB or larger)
+- Virtual Machine Software (VMware)
+- USB Flash Drive 32GB (8GB or larger)
 - BIOS / UEFI Firmware
 
 <h2>Environments Used </h2>
