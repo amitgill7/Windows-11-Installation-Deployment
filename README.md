@@ -57,7 +57,6 @@ This project focuses on operating system deployment, system preparation, BIOS/UE
 <br />
 <br />
 <b>Allow the Windows installation process to finish loading and complete all remaining setup prompts, including system preferences and configuration settings:</b>  <br/>
-<img width="1691" height="887" alt="image" src="https://github.com/user-attachments/assets/c3280f8d-be17-4ff0-9fe3-23016eee66d9" />
 <img width="1020" height="763" alt="image" src="https://github.com/user-attachments/assets/e623e64e-ee5f-470a-b7ed-2bcf5cd5c320" />
 <br />
 <br />
@@ -73,46 +72,29 @@ This project focuses on operating system deployment, system preparation, BIOS/UE
 <img width="712" height="551" alt="image" src="https://github.com/user-attachments/assets/a2caf0ee-497f-4a69-8956-d18a33e5c675" />
 <br />
 <br />
-<b>Open Event Viewer to view Windows processes on VM:</b>  <br/>
-<img width="786" height="697" alt="image" src="https://github.com/user-attachments/assets/87b9204d-c720-4402-812e-8ea950e2844a" />
+
+ <hr>
+<p align="center">
+<b>Download the Windows 11 ISO installation file from the official Microsoft website to be used for creating bootable installation media:</b>  <br/>
+<img width="1908" height="895" alt="image" src="https://github.com/user-attachments/assets/31fd2122-7685-4332-a87c-bdac65810eac" />
 <br />
 <br />
-<b>Attempt to login again, however enter incorrect credentials:</b>  <br/>
-<img width="396" height="241" alt="image" src="https://github.com/user-attachments/assets/0c4fd82f-6411-4a96-8619-1fa83bd8f142" />
+<b>Download and install Rufus, then insert a USB flash drive (8GB or larger):</b>  <br/>
+<img width="1919" height="1027" alt="image" src="https://github.com/user-attachments/assets/15db0831-b7cb-4ab5-96f8-74ff4b299205" />
 <br />
 <br />
-<b>These "failed" attempts will identify as "Audit Failure" with the code "4625," future login attempts from brute forcers around the world will register as the same code:</b>  <br/>
-<img width="1309" height="372" alt="image" src="https://github.com/user-attachments/assets/4fdf3ed2-d002-480a-af56-5eab1690a793" />
+<b>Select the downloaded Windows 11 ISO file within Rufus and configure the recommended installation settings, including partition scheme and target system compatibility. Begin the process to create the bootable USB installation media:</b>  <br/>
+<img width="1259" height="712" alt="image" src="https://github.com/user-attachments/assets/31a555d3-c4f1-4cb1-9055-7c94e744daca" />
+<img width="1051" height="621" alt="image" src="https://github.com/user-attachments/assets/0ee2971c-de14-4e60-8368-5d5f03f393b1" />
 <br />
 <br />
-<b>Create Log Analytics Workspace:</b>  <br/>
-<img width="769" height="665" alt="image" src="https://github.com/user-attachments/assets/e6989b61-0647-41a3-83f7-0b109b48535d" />
+<b>Access the system BIOS/UEFI firmware settings and modify the boot order to prioritize the USB installation media containing the Windows 11 setup files</b>  <br/>
+<img width="1460" height="828" alt="image" src="https://github.com/user-attachments/assets/57a68216-c704-43c0-acdb-6c6b8c50c553" />
+<img width="1363" height="810" alt="image" src="https://github.com/user-attachments/assets/a11e0cce-fc88-42aa-b409-b72b0750b1cd" />
 <br />
 <br />
-<b>Add Microsoft Sentinel to the Workspace:</b>  <br/>
-<img width="1682" height="367" alt="image" src="https://github.com/user-attachments/assets/ef27148b-1b80-4de5-a8ce-2c7e0a91e98e" />
-<br />
-<br />
-<b>Configure the Azure monitoring agent using security event connector:</b>  <br/>
-<img width="1898" height="845" alt="image" src="https://github.com/user-attachments/assets/e93a5b62-e489-4955-98b7-ff4fb7ccadd6" />
-<img width="838" height="350" alt="image" src="https://github.com/user-attachments/assets/25b6a3ee-3184-4302-9a6d-89d917244d86" />
-<br />
-<br />
-<b>Showing All Security Events through Log Analytics Workspace:</b>  <br/>
-<img width="1586" height="789" alt="image" src="https://github.com/user-attachments/assets/a91885ee-5548-4214-ab76-15cbeca832b0" />
-<br />
-<br />
-<b>Create a Watchlist to compile and organize the data collected:</b>  <br/>
-<img width="1694" height="668" alt="image" src="https://github.com/user-attachments/assets/ccd536da-8807-4146-a580-c00b29539c9b" />
-<img width="1599" height="603" alt="image" src="https://github.com/user-attachments/assets/776789a6-8336-47c1-a730-8bc608839220" />
-<br />
-<br />
-<b>Using this query, now we can see where the attackers are attacking from:</b>  <br/>
-<img width="1204" height="662" alt="image" src="https://github.com/user-attachments/assets/619de9cc-6fba-4335-9ec7-0cb9908f192e" />
-<br />
-<br />
-<b>Map of attackers geolocations:</b>  <br/>
-<img width="1611" height="545" alt="image" src="https://github.com/user-attachments/assets/3d1227bd-f5d2-4af6-a62c-0adc9f3e1635" />
+<b>Boot the system from the USB installation media and proceed with the Windows 11 installation process following the same configuration and setup procedures demonstrated in the ISO installation method:</b>  <br/>
+<img width="1691" height="887" alt="image" src="https://github.com/user-attachments/assets/acbc455d-b165-462f-a1c1-87a4b9d8546e" />
 </p>
 
 <!--
